@@ -18,7 +18,7 @@ git clone https://github.com/ger619/hello-world-webpack.git <Your-Build-Director
 - cd hello-world-webpack
 - yarn install
 - yarn build
-- ./bin/dev
+
 ```
 
 
