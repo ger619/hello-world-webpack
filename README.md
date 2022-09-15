@@ -1,24 +1,99 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://img.shields.io/badge/Microverse-blueviolet)
+# Rails with Reactjs One App
 
-Things you may want to cover:
+>Rails Capstone App app is a Ruby on Rails application that keeps track of all your entity and group.
 
-* Ruby version
+## Link
+``
+``
+## Video link
+- 
+## ERD
 
-* System dependencies
+### Cloning the project
 
-* Configuration
+git clone https://github.com/ger619/hello-world-webpack.git <Your-Build-Directory>
+``` 
+- cd hello-world-webpack
+- yarn install
+- yarn build
+- ./bin/dev
+```
 
-* Database creation
 
-* Database initialization
+## Built with
+- Ruby 3.1.2 on Rails 7.0.3.1
+- PostgreSQL
 
-* How to run the test suite
+## Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+Vscode or RubyMine
+Setup
 
-* Deployment instructions
+## Install
+    Ruby
+    Rails
+    Javascript
+    PostgreSql
 
-* ...
+### Development Database
+
+```
+# Sign into posgresql
+su - postgres
+
+# Create user
+create user 'user_name' with encrypted password 'mypassword'
+
+# Load the schema
+rails db:schema:load
+
+#----- If you want prefer this approach
+# Create the database
+rake db:create
+
+# Create database Migration
+rails db:migrate
+```
+
+### Run
+
+```
+bundle install
+
+rails s
+```
+
+## Run tests
+```
+
+
+```
+
+## Authors
+
+👤 **AbolGer**
+
+- GitHub: [@ger619](https://github.com/ger619)
+- Twitter: [@ger_abol](https://twitter.com/ger_abol)
+- LinkedIn: [David Ger](https://linkedin.com/in/david-ger-426b4576)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ger619/rails-capstone/issues).
+
+## Design
+
+Original design idea by [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance.
+The Creative Commons license of the design requires that you give appropriate credit to the author.
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
