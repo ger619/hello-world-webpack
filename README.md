@@ -25,6 +25,7 @@ git clone https://github.com/ger619/hello-world-webpack.git <Your-Build-Director
 ## Built with
 - Ruby 3.1.2 on Rails 7.0.3.1
 - PostgreSQL
+- Reactjs
 
 ## Prerequisites
 
@@ -62,7 +63,7 @@ rails db:migrate
 ```
 bundle install
 
-rails s
+./bin/dev
 ```
 
 ## Run tests
